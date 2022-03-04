@@ -1,0 +1,369 @@
+body{
+    font-size: 70%;
+    
+} p{
+        font-size: 1em;
+    }
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+   
+    
+   
+ 
+}
+article{
+    height: 20em;
+        width: 14em;
+       box-sizing: border-box;
+      
+    
+}
+.img1{
+    background-image:url(../img/photo1.png);
+    background-size: 13em;
+    background-repeat: no-repeat;
+    margin-top: 2em;
+   
+}
+
+
+.img2{
+    background-image: url(../img/photo2.png);
+    background-size: 13em;
+    background-repeat: no-repeat;
+    margin-top: 11em;
+   
+    
+}
+.img3{
+    background-image: url(../img/photo3.png);
+    background-size: 13em;
+    background-repeat: no-repeat;
+}
+.img4{
+    background-image: url(../img/photo4.png);
+    background-size: 13em;
+    background-repeat: no-repeat;
+    margin-top: 5em;
+}
+.img5{
+    background-image: url(../img/photo5.png);
+    background-size: 13em;
+    background-repeat: no-repeat;
+    
+}
+.img6{
+    background-image: url(../img/photo6.png);
+    background-size: 13em;
+    background-repeat: no-repeat;
+    margin-top: 5em;
+}
+h3{ 
+       margin: 0em 0em;
+       font-size: 1.5em;
+}
+.posicion1, .posicion2, .posicion3, .posicion4,.posicion5, .posicion6 {
+    position: relative;
+}
+.posicion1 p {
+    top: 5em;
+    position: absolute;
+    transform: rotate(90deg);
+    font-size: 1em;
+    right: -4.5em;
+   
+  
+}
+
+.posicion2 p{
+    top: 13em;
+    position: absolute;
+    transform: rotate(90deg);
+    font-size: 1em;
+    right: -4em;
+}
+.posicion3 p {
+    top: 1em;
+    position: absolute;
+    transform: rotate(90deg);
+    font-size: 1em;
+    right: -3em;
+}
+.posicion4 p{
+    top: 7em;
+    position: absolute;
+    transform: rotate(90deg);
+    font-size: 1em;
+    right: -4em;
+}
+.posicion5 p{
+    top: 1em;
+    position: absolute;
+    transform: rotate(90deg);
+    font-size: 1em;
+    right: -3em;
+}
+.posicion6 p{
+    top: 7em;
+    position: absolute;
+    transform: rotate(90deg);
+    font-size: 1em;
+    right: -3em;
+    }
+
+@media screen and (min-width:47em) {
+    body{
+        font-size: 90%;
+        
+    }
+   
+    section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+       
+     
+    }
+    article{
+        height: 20em;
+        width: 20em;
+        padding: 2em;
+        margin: 3em 3em 0em;
+    }
+    .img1{
+        background-image:url(../img/photo1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    
+    .img2{
+        background-image: url(../img/photo2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 10em;
+    }
+    .img3{
+        background-image: url(../img/photo3.png);
+        background-size:contain;
+        background-repeat: no-repeat;
+    }
+    .img4{
+        background-image: url(../img/photo4.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .img5{
+        background-image: url(../img/photo5.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 10em;
+    }
+    .img6{
+        background-image: url(../img/photo6.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    h3{ 
+           margin: 0em 2em;
+           font-size: 1.5em;
+    }
+    .posicion1, .posicion2, .posicion3, .posicion4,.posicion5, .posicion6 {
+        position: relative;
+    }
+    .posicion1 p {
+        top: 5em;
+        position: absolute;
+        transform: rotate(90deg);
+        font-size: 1em;
+        right: 3em;
+    }
+    
+    .posicion2 p{
+        top: 12em;
+        position: absolute;
+        transform: rotate(90deg);
+        font-size: 1em;
+       
+        right: 4em;
+    }
+    .posicion3 p {
+        top: 4em;
+        position: absolute;
+        transform: rotate(90deg);
+        font-size: 1em;
+        right: 5em;
+    
+    }
+    .posicion4 p{
+        top: 6.5em;
+        position: absolute;
+        transform: rotate(90deg);
+        font-size: 1em;
+        right: 4em;
+    }
+    .posicion5 p{
+        top: 11.5em;
+        position: absolute;
+        transform: rotate(90deg);
+        font-size: 1em;
+       
+        right: 5em;
+    }
+    .posicion6 p{
+        top: 6.5em;
+        position: absolute;
+        transform: rotate(90deg);
+        font-size: 1em;
+        right: 5em;
+        }
+    
+    .texto1 {
+        font-size: 1em;
+        position: relative;
+        width:45%;
+        left: 27em;
+        
+    }
+    h1{
+        
+        display: inline-block;
+       top: 2em;
+        position: relative;
+        left: 2em;
+        font-size: 2em;
+    }
+    
+}
+@media screen and (min-width:60em) {
+    body{
+        font-size: 100%;
+        
+    }
+   
+    section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+       
+     
+    }
+    article{
+        height: 20em;
+        width: 20em;
+        padding: 2em;
+        margin: 3em 3em 0em;
+    }
+    .img1{
+        background-image:url(../img/photo1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    
+    .img2{
+        background-image: url(../img/photo2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 10em;
+    }
+    .img3{
+        background-image: url(../img/photo3.png);
+        background-size:contain;
+        background-repeat: no-repeat;
+    }
+    .img4{
+        background-image: url(../img/photo4.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .img5{
+        background-image: url(../img/photo5.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 10em;
+    }
+    .img6{
+        background-image: url(../img/photo6.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    h3{ 
+           margin: 0em 2em;
+           font-size: 1.5em;
+    }
+    .posicion1, .posicion2, .posicion3, .posicion4,.posicion5, .posicion6 {
+        position: relative;
+    }
+    .posicion1 p {
+        top: 5em;
+        position: absolute;
+        transform: rotate(90deg);
+        font-size: 1em;
+        right: 3em;
+    }
+    
+    .posicion2 p{
+        top: 12em;
+        position: absolute;
+        transform: rotate(90deg);
+        font-size: 1em;
+       
+        right: 4em;
+    }
+    .posicion3 p {
+        top: 4em;
+        position: absolute;
+        transform: rotate(90deg);
+        font-size: 1em;
+        right: 5em;
+    
+    }
+    .posicion4 p{
+        top: 6.5em;
+        position: absolute;
+        transform: rotate(90deg);
+        font-size: 1em;
+        right: 4em;
+    }
+    .posicion5 p{
+        top: 11.5em;
+        position: absolute;
+        transform: rotate(90deg);
+        font-size: 1em;
+       
+        right: 5em;
+    }
+    .posicion6 p{
+        top: 6.5em;
+        position: absolute;
+        transform: rotate(90deg);
+        font-size: 1em;
+        right: 5em;
+        }
+    
+    .texto1 {
+        font-size: 1em;
+        position: relative;
+        width:45%;
+        left: 35em;
+        top: -1em;
+    }
+    h1{
+        
+        display: inline-block;
+       top: 2em;
+        position: relative;
+        left: 2em;
+        font-size: 2em;
+    }
+}
